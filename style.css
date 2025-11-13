@@ -1,0 +1,106 @@
+header{
+    background-color: darkgray;
+    text-align: center;
+    font-size: large;
+    height: 130px;
+}
+main{
+    background-color: bisque;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+h3:hover{
+    opacity: 0.8;
+}
+main h3{
+    background-color: #d1bada;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+}
+#first{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+#second{
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+}
+#third{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+a,a:hover,a:visited{
+    color: inherit;
+}
+#return{
+    position: absolute;
+    top: 550px;
+    left: 1400px;
+    color: blue;
+    font-size: large;
+    background-color: lightgray;
+    width: 80px;
+    text-align: center;
+}
+#return:hover{
+    opacity: 0.8;
+}
+#quiz{
+    position: absolute;
+    top: 450px;
+    left: 600px;
+}
+p #num{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+.hidden {
+    display: none;
+}
+#quizsentance{
+    position: relative;
+    top: 30px;
+    background-color: white;
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+#num{
+    position: relative;
+    left: 900px;
+}
+#answer{
+   position: absolute;
+   top: 350px; 
+   left: 500px;
+}
+#answerbox{
+    width: 500px;
+}
+#finish{
+    position: absolute;
+    top: 350px;
+    left: 1100px;
+    background-color: #d1bada;
+}
+#resalt{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+#quizsentance{
+    text-align: center;
+    background-color: white;
+}
+.finish:hover{
+    opacity: 0.8;
+}
